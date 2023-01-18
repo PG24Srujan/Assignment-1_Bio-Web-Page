@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+body{
+    background-image:url("./images/Bg.jpg");
+    font-size: 19px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box1{
+    padding:0 30%;
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 20px;
+    
+}
+.box2
+{
+    padding:0 30%;
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.bio-area1{
+    
+    width: 500px;                                             
+    background-color: rgb(224, 233, 141);
+    border: 2px solid rgb(17, 0, 248);
+    border-radius: 25px;                
+    padding: 10px;
+    text-align: justify;                                                              
+}
+.bio-area2{
+    
+    width: 500px;           
+    background-color: rgb(235, 164, 162);
+    border: 2px solid black;
+    border-radius: 25px;                
+    padding:10px;
+    text-align: justify; 
+
+}
+img{
+    float: left; 
+    margin: 0px 15px 15px 0px; 
+    border-radius: 50%; 
+    height: 100px; 
+    object-fit: cover;
+}           
